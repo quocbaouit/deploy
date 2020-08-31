@@ -1702,3 +1702,9 @@ WARN  2020-08-30 15:45:53,803 [1    ] taProtection.KeyManagement.XmlKeyManager -
 WARN  2020-08-30 15:45:53,815 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {4910afec-1007-493c-936c-20ab08a0c01d} may be persisted to storage in unencrypted form.
 WARN  2020-08-31 01:06:59,730 [41   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
 WARN  2020-08-31 01:07:05,636 [76   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2020-08-31 07:53:20,218 [97   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-31 07:53:20,230 [97   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-31 07:53:20,230 [97   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DarkAge.MultiTenancy.Tenant, DarkAge.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DarkAge.Authorization.Users.User, DarkAge.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-31 07:53:20,232 [97   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-31 07:53:20,232 [97   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DarkAge.MultiTenancy.Tenant, DarkAge.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DarkAge.Authorization.Users.User, DarkAge.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-31 07:53:20,232 [97   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
