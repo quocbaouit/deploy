@@ -34,15 +34,15 @@ CREATE TABLE `_useraccounts` (
   `TenantId` int(11) DEFAULT NULL,
   `UserId` bigint(20) NOT NULL,
   `UserLinkId` bigint(20) DEFAULT NULL,
-  `UserName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EmailAddress` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `UserName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EmailAddress` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__UserAccounts_EmailAddress` (`EmailAddress`),
   KEY `IX__UserAccounts_UserName` (`UserName`),
   KEY `IX__UserAccounts_TenantId_EmailAddress` (`TenantId`,`EmailAddress`),
   KEY `IX__UserAccounts_TenantId_UserId` (`TenantId`,`UserId`),
   KEY `IX__UserAccounts_TenantId_UserName` (`TenantId`,`UserName`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

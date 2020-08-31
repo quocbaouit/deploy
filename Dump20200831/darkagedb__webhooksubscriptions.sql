@@ -27,13 +27,13 @@ CREATE TABLE `_webhooksubscriptions` (
   `CreationTime` datetime NOT NULL,
   `CreatorUserId` bigint(20) DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
-  `WebhookUri` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Secret` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `WebhookUri` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Secret` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `IsActive` tinyint(1) NOT NULL,
-  `Webhooks` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Headers` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Webhooks` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `Headers` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -26,18 +26,18 @@ CREATE TABLE `_notifications` (
   `Id` char(36) NOT NULL,
   `CreationTime` datetime NOT NULL,
   `CreatorUserId` bigint(20) DEFAULT NULL,
-  `NotificationName` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Data` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `DataTypeName` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityTypeName` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityTypeAssemblyQualifiedName` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityId` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `NotificationName` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Data` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `DataTypeName` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityTypeName` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityTypeAssemblyQualifiedName` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityId` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `Severity` tinyint(3) unsigned NOT NULL,
-  `UserIds` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `ExcludedUserIds` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `TenantIds` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `UserIds` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `ExcludedUserIds` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `TenantIds` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

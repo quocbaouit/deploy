@@ -24,21 +24,21 @@ DROP TABLE IF EXISTS `_entitychangesets`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `_entitychangesets` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `BrowserInfo` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `ClientIpAddress` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `ClientName` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `BrowserInfo` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `ClientIpAddress` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `ClientName` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `CreationTime` datetime NOT NULL,
-  `ExtensionData` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `ExtensionData` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `ImpersonatorTenantId` int(11) DEFAULT NULL,
   `ImpersonatorUserId` bigint(20) DEFAULT NULL,
-  `Reason` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `Reason` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
   `UserId` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__EntityChangeSets_TenantId_CreationTime` (`TenantId`,`CreationTime`),
   KEY `IX__EntityChangeSets_TenantId_Reason` (`TenantId`,`Reason`),
   KEY `IX__EntityChangeSets_TenantId_UserId` (`TenantId`,`UserId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -24,13 +24,13 @@ DROP TABLE IF EXISTS `_dynamicparameters`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `_dynamicparameters` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `ParameterName` varchar(95) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `InputType` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Permission` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `ParameterName` varchar(95) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `InputType` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `Permission` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `TenantId` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX__DynamicParameters_ParameterName_TenantId` (`ParameterName`,`TenantId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -27,14 +27,14 @@ CREATE TABLE `_entitychanges` (
   `ChangeTime` datetime NOT NULL,
   `ChangeType` tinyint(3) unsigned NOT NULL,
   `EntityChangeSetId` bigint(20) NOT NULL,
-  `EntityId` varchar(48) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityTypeFullName` varchar(192) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `EntityId` varchar(48) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityTypeFullName` varchar(192) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__EntityChanges_EntityChangeSetId` (`EntityChangeSetId`),
   KEY `IX__EntityChanges_EntityTypeFullName_EntityId` (`EntityTypeFullName`,`EntityId`),
   CONSTRAINT `FK__EntityChanges__EntityChangeSets_EntityChangeSetId` FOREIGN KEY (`EntityChangeSetId`) REFERENCES `_entitychangesets` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

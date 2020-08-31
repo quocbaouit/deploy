@@ -24,14 +24,14 @@ DROP TABLE IF EXISTS `_entitydynamicparameters`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `_entitydynamicparameters` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `EntityFullName` varchar(95) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `EntityFullName` varchar(95) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `DynamicParameterId` int(11) NOT NULL,
   `TenantId` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `IX__EntityDynamicParameters_EntityFullName_DynamicParameterId_T~` (`EntityFullName`,`DynamicParameterId`,`TenantId`),
   KEY `IX__EntityDynamicParameters_DynamicParameterId` (`DynamicParameterId`),
   CONSTRAINT `FK__EntityDynamicParameters__DynamicParameters_DynamicParameter~` FOREIGN KEY (`DynamicParameterId`) REFERENCES `_dynamicparameters` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

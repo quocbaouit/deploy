@@ -24,17 +24,17 @@ DROP TABLE IF EXISTS `ticket`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `ticket` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `Character` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Email` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `TicketCode` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Character` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `Email` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `TicketCode` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `Status` int(11) NOT NULL,
-  `FileUrls` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Ip` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `FileUrls` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `Ip` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `CreationTime` datetime NOT NULL,
   `DisplayOrder` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

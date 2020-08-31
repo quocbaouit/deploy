@@ -27,15 +27,15 @@ CREATE TABLE `_features` (
   `CreationTime` datetime NOT NULL,
   `CreatorUserId` bigint(20) DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
-  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Value` varchar(2000) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Discriminator` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Value` varchar(2000) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Discriminator` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `EditionId` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__Features_EditionId_Name` (`EditionId`,`Name`),
   KEY `IX__Features_TenantId_Name` (`TenantId`,`Name`),
   CONSTRAINT `FK__Features__Editions_EditionId` FOREIGN KEY (`EditionId`) REFERENCES `_editions` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

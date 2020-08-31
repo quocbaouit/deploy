@@ -24,14 +24,14 @@ DROP TABLE IF EXISTS `_webhookevents`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `_webhookevents` (
   `Id` char(36) NOT NULL,
-  `WebhookName` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Data` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `WebhookName` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Data` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `CreationTime` datetime NOT NULL,
   `TenantId` int(11) DEFAULT NULL,
   `IsDeleted` tinyint(1) NOT NULL,
   `DeletionTime` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

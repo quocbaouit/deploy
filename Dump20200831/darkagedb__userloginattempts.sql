@@ -25,18 +25,18 @@ DROP TABLE IF EXISTS `_userloginattempts`;
 CREATE TABLE `_userloginattempts` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT,
   `TenantId` int(11) DEFAULT NULL,
-  `TenancyName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `TenancyName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `UserId` bigint(20) DEFAULT NULL,
-  `UserNameOrEmailAddress` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `ClientIpAddress` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `ClientName` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `BrowserInfo` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `UserNameOrEmailAddress` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `ClientIpAddress` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `ClientName` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `BrowserInfo` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `Result` tinyint(3) unsigned NOT NULL,
   `CreationTime` datetime NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__UserLoginAttempts_UserId_TenantId` (`UserId`,`TenantId`),
   KEY `IX__UserLoginAttempts_TenancyName_UserNameOrEmailAddress_Result` (`TenancyName`,`UserNameOrEmailAddress`,`Result`)
-) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -26,7 +26,7 @@ CREATE TABLE `_webhooksendattempts` (
   `Id` char(36) NOT NULL,
   `WebhookEventId` char(36) NOT NULL,
   `WebhookSubscriptionId` char(36) NOT NULL,
-  `Response` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Response` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `ResponseStatusCode` int(11) DEFAULT NULL,
   `CreationTime` datetime NOT NULL,
   `LastModificationTime` datetime DEFAULT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE `_webhooksendattempts` (
   PRIMARY KEY (`Id`),
   KEY `IX__WebhookSendAttempts_WebhookEventId` (`WebhookEventId`),
   CONSTRAINT `FK__WebhookSendAttempts__WebhookEvents_WebhookEventId` FOREIGN KEY (`WebhookEventId`) REFERENCES `_webhookevents` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

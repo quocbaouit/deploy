@@ -25,15 +25,15 @@ DROP TABLE IF EXISTS `_entitypropertychanges`;
 CREATE TABLE `_entitypropertychanges` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT,
   `EntityChangeId` bigint(20) NOT NULL,
-  `NewValue` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `OriginalValue` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `PropertyName` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `PropertyTypeFullName` varchar(192) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `NewValue` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `OriginalValue` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `PropertyName` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `PropertyTypeFullName` varchar(192) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__EntityPropertyChanges_EntityChangeId` (`EntityChangeId`),
   CONSTRAINT `FK__EntityPropertyChanges__EntityChanges_EntityChangeId` FOREIGN KEY (`EntityChangeId`) REFERENCES `_entitychanges` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

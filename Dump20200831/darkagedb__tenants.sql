@@ -31,9 +31,9 @@ CREATE TABLE `_tenants` (
   `IsDeleted` tinyint(1) NOT NULL,
   `DeleterUserId` bigint(20) DEFAULT NULL,
   `DeletionTime` datetime DEFAULT NULL,
-  `TenancyName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ConnectionString` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `TenancyName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `ConnectionString` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `IsActive` tinyint(1) NOT NULL,
   `EditionId` int(11) DEFAULT NULL,
   PRIMARY KEY (`Id`),
@@ -46,7 +46,7 @@ CREATE TABLE `_tenants` (
   CONSTRAINT `FK__Tenants__Users_CreatorUserId` FOREIGN KEY (`CreatorUserId`) REFERENCES `_users` (`id`) ON DELETE RESTRICT,
   CONSTRAINT `FK__Tenants__Users_DeleterUserId` FOREIGN KEY (`DeleterUserId`) REFERENCES `_users` (`id`) ON DELETE RESTRICT,
   CONSTRAINT `FK__Tenants__Users_LastModifierUserId` FOREIGN KEY (`LastModifierUserId`) REFERENCES `_users` (`id`) ON DELETE RESTRICT
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

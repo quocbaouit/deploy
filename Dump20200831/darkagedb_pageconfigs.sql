@@ -24,12 +24,12 @@ DROP TABLE IF EXISTS `pageconfigs`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `pageconfigs` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `Key` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Value` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Key` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `Value` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `CreationTime` datetime NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

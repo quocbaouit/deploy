@@ -26,14 +26,14 @@ CREATE TABLE `_userlogins` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT,
   `TenantId` int(11) DEFAULT NULL,
   `UserId` bigint(20) NOT NULL,
-  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ProviderKey` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `ProviderKey` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__UserLogins_UserId` (`UserId`),
   KEY `IX__UserLogins_TenantId_UserId` (`TenantId`,`UserId`),
   KEY `IX__UserLogins_TenantId_LoginProvider_ProviderKey` (`TenantId`,`LoginProvider`,`ProviderKey`),
   CONSTRAINT `FK__UserLogins__Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `_users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

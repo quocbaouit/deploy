@@ -32,13 +32,13 @@ CREATE TABLE `_roles` (
   `DeleterUserId` bigint(20) DEFAULT NULL,
   `DeletionTime` datetime DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
-  `Name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `DisplayName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `DisplayName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `IsStatic` tinyint(1) NOT NULL,
   `IsDefault` tinyint(1) NOT NULL,
-  `NormalizedName` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ConcurrencyStamp` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `NormalizedName` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `ConcurrencyStamp` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`Id`),
   KEY `IX__Roles_CreatorUserId` (`CreatorUserId`),
   KEY `IX__Roles_DeleterUserId` (`DeleterUserId`),
@@ -47,7 +47,7 @@ CREATE TABLE `_roles` (
   CONSTRAINT `FK__Roles__Users_CreatorUserId` FOREIGN KEY (`CreatorUserId`) REFERENCES `_users` (`id`) ON DELETE RESTRICT,
   CONSTRAINT `FK__Roles__Users_DeleterUserId` FOREIGN KEY (`DeleterUserId`) REFERENCES `_users` (`id`) ON DELETE RESTRICT,
   CONSTRAINT `FK__Roles__Users_LastModifierUserId` FOREIGN KEY (`LastModifierUserId`) REFERENCES `_users` (`id`) ON DELETE RESTRICT
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

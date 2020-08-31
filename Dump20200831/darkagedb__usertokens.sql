@@ -26,15 +26,15 @@ CREATE TABLE `_usertokens` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT,
   `TenantId` int(11) DEFAULT NULL,
   `UserId` bigint(20) NOT NULL,
-  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `Value` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `Value` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `ExpireDate` datetime DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__UserTokens_UserId` (`UserId`),
   KEY `IX__UserTokens_TenantId_UserId` (`TenantId`,`UserId`),
   CONSTRAINT `FK__UserTokens__Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `_users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -33,7 +33,7 @@ CREATE TABLE `_userorganizationunits` (
   PRIMARY KEY (`Id`),
   KEY `IX__UserOrganizationUnits_TenantId_OrganizationUnitId` (`TenantId`,`OrganizationUnitId`),
   KEY `IX__UserOrganizationUnits_TenantId_UserId` (`TenantId`,`UserId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -28,7 +28,7 @@ CREATE TABLE `_roleclaims` (
   `CreatorUserId` bigint(20) DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
   `RoleId` int(11) NOT NULL,
-  `ClaimType` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `ClaimType` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `ClaimValue` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   PRIMARY KEY (`Id`),
   KEY `IX__RoleClaims_RoleId` (`RoleId`),

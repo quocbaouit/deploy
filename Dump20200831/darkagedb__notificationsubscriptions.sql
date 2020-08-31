@@ -28,14 +28,14 @@ CREATE TABLE `_notificationsubscriptions` (
   `CreatorUserId` bigint(20) DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
   `UserId` bigint(20) NOT NULL,
-  `NotificationName` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityTypeName` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityTypeAssemblyQualifiedName` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `EntityId` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `NotificationName` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityTypeName` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityTypeAssemblyQualifiedName` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `EntityId` varchar(96) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__NotificationSubscriptions_NotificationName_EntityTypeName_E~` (`NotificationName`,`EntityTypeName`,`EntityId`,`UserId`),
   KEY `IX__NotificationSubscriptions_TenantId_NotificationName_EntityT~` (`TenantId`,`NotificationName`,`EntityTypeName`,`EntityId`,`UserId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

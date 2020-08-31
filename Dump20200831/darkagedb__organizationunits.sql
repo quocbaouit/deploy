@@ -33,13 +33,13 @@ CREATE TABLE `_organizationunits` (
   `DeletionTime` datetime DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
   `ParentId` bigint(20) DEFAULT NULL,
-  `Code` varchar(95) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `DisplayName` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Code` varchar(95) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `DisplayName` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `IX__OrganizationUnits_ParentId` (`ParentId`),
   KEY `IX__OrganizationUnits_TenantId_Code` (`TenantId`,`Code`),
   CONSTRAINT `FK__OrganizationUnits__OrganizationUnits_ParentId` FOREIGN KEY (`ParentId`) REFERENCES `_organizationunits` (`id`) ON DELETE RESTRICT
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

@@ -27,9 +27,9 @@ CREATE TABLE `_permissions` (
   `CreationTime` datetime NOT NULL,
   `CreatorUserId` bigint(20) DEFAULT NULL,
   `TenantId` int(11) DEFAULT NULL,
-  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `IsGranted` tinyint(1) NOT NULL,
-  `Discriminator` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Discriminator` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `RoleId` int(11) DEFAULT NULL,
   `UserId` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`Id`),
@@ -38,7 +38,7 @@ CREATE TABLE `_permissions` (
   KEY `IX__Permissions_UserId` (`UserId`),
   CONSTRAINT `FK__Permissions__Roles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `_roles` (`id`) ON DELETE CASCADE,
   CONSTRAINT `FK__Permissions__Users_UserId` FOREIGN KEY (`UserId`) REFERENCES `_users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
