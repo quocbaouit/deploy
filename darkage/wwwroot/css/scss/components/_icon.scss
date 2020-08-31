@@ -1,0 +1,48 @@
+//**
+// Alerts & Notifications
+//**
+
+.icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+
+  &-android {
+    width: 23px;
+    height: 26px;
+    background-image: url(/img/icon-android.png);
+  }
+  &-ios {
+    width: 23px;
+    height: 26px;
+    background-image: url(/img/icon-ios.png);
+  }
+  &-pc {
+    width: 31px;
+    height: 26px;
+    background-image: url(/img/icon-pc.png);
+  }
+  &-gif {
+    width: 23px;
+    height: 26px;
+    background-image: url(/img/icon-gif.png);
+  }
+  &-facebook {
+    width: 23px;
+    height: 26px;
+    background-image: url(/img/icon-facebook.png);
+  }
+  &-support {
+    width: 23px;
+    height: 26px;
+    background-image: url(/img/icon-support.png);
+  }
+}

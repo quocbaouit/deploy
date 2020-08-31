@@ -1,0 +1,107 @@
+//**
+// Buttons
+//**
+
+// Default button
+.btn {
+  border-radius: $btn-br;
+  background: transparent;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  outline: none;
+  padding: 13px 5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  @include responsive($big-break) {
+    font-size: 0.875rem;
+  }
+  &:hover,
+  &:active {
+    .icon {
+      &-android {
+        background-image: url(/img/icon-android-active.png);
+      }
+      &-ios {
+        background-image: url(/img/icon-ios-active.png);
+      }
+      &-pc {
+        background-image: url(/img/icon-pc-active.png);
+      }
+      &-gif {
+        background-image: url(/img/icon-gif-active.png);
+      }
+      &-facebook {
+        background-image: url(/img/icon-facebook-active.png);
+      }
+      &-support {
+        background-image: url(/img/icon-support-active.png);
+      }
+    }
+  }
+}
+
+// Primary action button
+.btn-primary {
+  background: url(/img/bg-btn.jpg) no-repeat center;
+  background-size: cover;
+  border-color: transparent;
+  color: #fdb440;
+  width: 200px;
+  height: 65px;
+  @include responsive($big-break) {
+    width: 169px;
+    height: 51px;
+  }
+  &:hover,
+  &.active {
+    background-image: url(/img/bg-btn-active.png);
+    color: #75250d;
+  }
+}
+
+// Larger button
+.btn-lg {
+  font-size: 1.4em;
+  height: $line-height * 1.5;
+  padding: 0 60px;
+}
+
+// Smaller button
+.btn-sm {
+  font-size: 0.85em;
+  height: $line-height * 0.7;
+  padding: 0 10px;
+}
+
+// Link button - a button that looks like a link
+.btn-link {
+  box-shadow: none;
+  background: transparent;
+  border: 0;
+  color: $primary-color;
+  text-shadow: none;
+  text-transform: none;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+// Responsive styles if needed
+// @include responsive($big-break) {
+// }
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }

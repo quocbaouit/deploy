@@ -1,0 +1,54 @@
+// Reset default browser styles using Normalize
+@import "../../node_modules/normalize-scss/sass/_normalize.scss";
+
+// Install FontAwesome for useful icons
+@font-face {
+  font-family: "UVN Sach Vo";
+  src: url("/fonts/UVNSachVo_R.TTF");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "UVN Sach Vo";
+  src: url("/fonts/UVNSachVo_B.TTF");
+  font-weight: bold;
+}
+@font-face {
+    font-family: "UVN Mang Cau";
+    src: url("/fonts/UVNMangCauNang_R.TTF");
+    font-weight: bold;
+  }
+
+// Import fonts from Google
+// Set variables and reusable mixins
+@import "base/config";
+@import "base/mixins";
+
+// Import typical layout styles
+@import "base/grid";
+@import "base/type";
+
+// Import reusable modules
+@import "components/media";
+@import "components/buttons";
+@import "components/tables";
+@import "components/forms";
+@import "components/nav";
+@import "components/other";
+@import "components/swiper";
+@import "components/icon";
+@import "components/footer";
+
+// Specific project styles, add any section specific sass modules here
+@import "pages/layout";
+@import "pages/home";
+@import "pages/faq";
+
+// Additional styles to think about
+@import "base/responsive";
+@import "base/print";
+
+// If IE support is needed
+@import "base/ie";
+
+// For anything quick and dirty that needs thrown in
+@import "base/shame";

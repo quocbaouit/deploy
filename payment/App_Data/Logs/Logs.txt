@@ -1,0 +1,370 @@
+DEBUG 2020-08-25 15:40:37,145 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-25 15:40:37,167 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-25 15:40:37,175 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Home.Startup.PaymentWebHomeModule, Payment.Web.Home, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,178 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,178 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,178 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:37,183 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-25 15:40:37,226 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 15:40:37,226 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 15:40:37,226 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 15:40:37,226 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 15:40:37,591 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 15:40:38,235 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-25 15:40:38,280 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-25 15:40:38,292 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-25 15:40:38,296 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-25 15:40:38,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-25 15:40:38,363 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-25 15:40:38,397 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-25 15:40:38,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes define auto mapping attributes
+DEBUG 2020-08-25 15:40:38,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-25 15:40:38,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-25 15:40:38,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-25 15:40:38,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-25 15:40:38,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-25 15:40:38,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-25 15:40:38,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-25 15:40:38,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-25 15:40:38,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-25 15:40:38,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-25 15:40:38,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-25 15:40:38,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+WARN  2020-08-25 15:40:41,247 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-25 15:40:41,247 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-25 15:40:41,275 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {c8aaae56-5426-4d38-9327-f2c8ca305fd6} may be persisted to storage in unencrypted form.
+WARN  2020-08-25 15:40:41,378 [8    ] oft.AspNetCore.Session.SessionMiddleware - Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {4d54da7c-ded5-42cf-8fa6-e6f8804801ac} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  2020-08-25 15:40:46,527 [4    ] oft.AspNetCore.Session.SessionMiddleware - Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {4d54da7c-ded5-42cf-8fa6-e6f8804801ac} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  2020-08-25 15:40:50,541 [9    ] oft.AspNetCore.Session.SessionMiddleware - Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The key {4d54da7c-ded5-42cf-8fa6-e6f8804801ac} was not found in the key ring.
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+ERROR 2020-08-26 02:42:02,763 [22   ] Mvc.ExceptionHandling.AbpExceptionFilter - String reference not set to an instance of a String. (Parameter 's')
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Payment.Services.JwtService.GenerateJSONWebToken(CoreUser coreUser) in E:\New folder (2)\Projects\Payment\src\Payment.Application\Services\JwtService.cs:line 23
+   at Payment.Web.Home.ApiController.AccountApiController.ForgetPassword(String email) in E:\New folder (2)\Projects\Payment\src\Payment.Web.Home\ApiController\AccountApiController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ERROR 2020-08-26 02:42:02,777 [22   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Payment.Services.JwtService.GenerateJSONWebToken(CoreUser coreUser) in E:\New folder (2)\Projects\Payment\src\Payment.Application\Services\JwtService.cs:line 23
+   at Payment.Web.Home.ApiController.AccountApiController.ForgetPassword(String email) in E:\New folder (2)\Projects\Payment\src\Payment.Web.Home\ApiController\AccountApiController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 2020-08-26 03:29:11,480 [73   ] Mvc.ExceptionHandling.AbpExceptionFilter - IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Payment.Services.JwtService.validateToken(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Application\Services\JwtService.cs:line 42
+   at Payment.Web.Home.Controllers.AuthorizationController.ResetPassword(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Web.Home\Controllers\AuthorizationController.cs:line 143
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ERROR 2020-08-26 03:29:11,484 [73   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Payment.Services.JwtService.validateToken(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Application\Services\JwtService.cs:line 42
+   at Payment.Web.Home.Controllers.AuthorizationController.ResetPassword(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Web.Home\Controllers\AuthorizationController.cs:line 143
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+DEBUG 2020-08-26 05:02:00,466 [48   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-26 05:02:00,468 [48   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-26 05:02:00,468 [48   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-26 05:02:00,469 [48   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-26 05:02:00,469 [48   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-26 05:02:00,470 [48   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-08-26 05:59:59,820 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-26 06:00:00,172 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-26 06:00:00,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Home.Startup.PaymentWebHomeModule, Payment.Web.Home, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:00,190 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-26 06:00:00,397 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-26 06:00:00,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-26 06:00:00,397 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-26 06:00:00,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-26 06:00:00,866 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-26 06:00:01,633 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-26 06:00:01,679 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-26 06:00:01,691 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-26 06:00:01,696 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-26 06:00:01,701 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-26 06:00:01,761 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-26 06:00:01,795 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-26 06:00:01,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes define auto mapping attributes
+DEBUG 2020-08-26 06:00:01,845 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-26 06:00:01,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-26 06:00:01,851 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-26 06:00:01,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-26 06:00:01,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-26 06:00:01,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-26 06:00:01,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-26 06:00:01,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-26 06:00:01,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-26 06:00:01,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-26 06:00:01,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-26 06:00:01,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+WARN  2020-08-26 06:00:05,452 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-26 06:00:05,452 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-26 06:00:05,478 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {3f7e60c7-4c0a-4c68-8b0a-b318a4402953} may be persisted to storage in unencrypted form.
+ERROR 2020-08-26 06:00:06,504 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Payment.Services.JwtService.validateToken(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Application\Services\JwtService.cs:line 42
+   at Payment.Web.Home.Controllers.AuthorizationController.ResetPassword(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Web.Home\Controllers\AuthorizationController.cs:line 143
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ERROR 2020-08-26 06:00:06,514 [9    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidLifetimeException: IDX10230: Lifetime validation failed. Delegate returned false, securitytoken: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Payment.Services.JwtService.validateToken(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Application\Services\JwtService.cs:line 42
+   at Payment.Web.Home.Controllers.AuthorizationController.ResetPassword(String token) in E:\New folder (2)\Projects\Payment\src\Payment.Web.Home\Controllers\AuthorizationController.cs:line 143
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+DEBUG 2020-08-27 10:02:00,960 [19   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-27 10:02:00,962 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-27 10:02:00,962 [19   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-27 10:02:00,963 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-27 10:02:00,963 [19   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-27 10:02:00,963 [19   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-08-28 03:28:29,878 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-28 03:28:30,308 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-28 03:28:30,317 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Home.Startup.PaymentWebHomeModule, Payment.Web.Home, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,319 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,320 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,320 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,321 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,321 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,321 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:30,326 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-28 03:28:30,420 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-28 03:28:30,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-28 03:28:30,420 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-28 03:28:30,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-28 03:28:30,800 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-28 03:28:31,553 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-28 03:28:31,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-28 03:28:31,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-28 03:28:31,615 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-28 03:28:31,641 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-28 03:28:31,699 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-28 03:28:31,730 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-28 03:28:31,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes define auto mapping attributes
+DEBUG 2020-08-28 03:28:31,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-28 03:28:31,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-28 03:28:31,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-28 03:28:31,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-28 03:28:31,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-28 03:28:31,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-28 03:28:31,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-28 03:28:31,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-28 03:28:31,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-28 03:28:31,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+WARN  2020-08-28 03:28:35,197 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-28 03:28:35,197 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-28 03:28:35,225 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {ee0f338d-87cd-4a36-8eef-8dbb484ab56d} may be persisted to storage in unencrypted form.
+DEBUG 2020-08-28 21:08:38,541 [89   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-28 21:08:38,544 [89   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-28 21:08:38,544 [89   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-28 21:08:38,545 [89   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-28 21:08:38,545 [89   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-28 21:08:38,545 [89   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

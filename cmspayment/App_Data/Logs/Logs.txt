@@ -1,0 +1,365 @@
+DEBUG 2020-08-19 02:43:45,695 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-19 02:43:45,715 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-19 02:43:45,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Cms.Startup.PaymentWebCmsModule, Payment.Web.Cms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:45,744 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-19 02:43:45,796 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-19 02:43:45,796 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-19 02:43:45,796 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-19 02:43:45,796 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-19 02:43:46,189 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-19 02:43:46,841 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-19 02:43:46,885 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-19 02:43:46,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-19 02:43:46,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-19 02:43:46,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-19 02:43:46,970 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-19 02:43:47,005 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-19 02:43:47,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2020-08-19 02:43:47,053 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-19 02:43:47,059 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-19 02:43:47,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-19 02:43:47,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-19 02:43:47,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-19 02:43:47,061 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-19 02:43:47,062 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-19 02:43:47,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Models.Roles.EditRoleModalViewModel
+WARN  2020-08-19 02:43:49,945 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-19 02:43:49,946 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-19 02:43:49,958 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {40ac9f55-3d55-4e6d-80e0-b210107999af} may be persisted to storage in unencrypted form.
+WARN  2020-08-19 02:43:54,190 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-19 02:44:30,498 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2020-08-19 22:16:23,725 [95   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-19 22:16:23,727 [95   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-19 22:16:23,727 [95   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-19 22:16:23,728 [95   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-19 22:16:23,728 [95   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-19 22:16:23,728 [95   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-08-20 07:48:31,486 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-20 07:48:31,754 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-20 07:48:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Cms.Startup.PaymentWebCmsModule, Payment.Web.Cms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,778 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:31,786 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-20 07:48:31,998 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-20 07:48:31,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-20 07:48:31,998 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-20 07:48:31,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-20 07:48:32,514 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-20 07:48:33,150 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-20 07:48:33,192 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-20 07:48:33,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-20 07:48:33,209 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-20 07:48:33,215 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-20 07:48:33,274 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-20 07:48:33,308 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-20 07:48:33,360 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2020-08-20 07:48:33,360 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-20 07:48:33,366 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-20 07:48:33,366 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-20 07:48:33,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-20 07:48:33,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-20 07:48:33,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-20 07:48:33,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-20 07:48:33,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-20 07:48:33,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-20 07:48:33,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+DEBUG 2020-08-20 07:48:33,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-20 07:48:33,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Models.Roles.EditRoleModalViewModel
+WARN  2020-08-20 07:48:37,037 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-20 07:48:37,037 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-20 07:48:37,052 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {b05b6997-ce1a-4599-a077-3453a479abcd} may be persisted to storage in unencrypted form.
+DEBUG 2020-08-21 03:16:24,053 [32   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-21 03:16:24,055 [32   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-21 03:16:24,056 [32   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-21 03:16:24,057 [32   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-21 03:16:24,057 [32   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-21 03:16:24,057 [32   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-08-22 13:14:19,073 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-22 13:14:19,345 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-22 13:14:19,366 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Cms.Startup.PaymentWebCmsModule, Payment.Web.Cms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:19,374 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-22 13:14:19,457 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-22 13:14:19,457 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-22 13:14:19,457 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-22 13:14:19,457 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-22 13:14:19,818 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-22 13:14:20,383 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-22 13:14:20,425 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-22 13:14:20,437 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-22 13:14:20,441 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-22 13:14:20,447 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-22 13:14:20,509 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-22 13:14:20,541 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-22 13:14:20,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2020-08-22 13:14:20,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-22 13:14:20,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-22 13:14:20,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-22 13:14:20,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-22 13:14:20,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-22 13:14:20,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-22 13:14:20,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-22 13:14:20,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-22 13:14:20,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-22 13:14:20,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-22 13:14:20,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-22 13:14:20,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Models.Roles.EditRoleModalViewModel
+WARN  2020-08-22 13:14:23,569 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-22 13:14:23,569 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-22 13:14:23,582 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {52da9f84-53b0-45bd-b13a-3601b36e2352} may be persisted to storage in unencrypted form.
+DEBUG 2020-08-23 13:16:24,675 [73   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-23 13:16:24,678 [73   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-23 13:16:24,678 [73   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-23 13:16:24,679 [73   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-23 13:16:24,679 [73   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-23 13:16:24,679 [73   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-08-25 07:47:01,198 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-25 07:47:01,444 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-25 07:47:01,467 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Cms.Startup.PaymentWebCmsModule, Payment.Web.Cms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,468 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:01,477 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-25 07:47:01,565 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 07:47:01,565 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 07:47:01,565 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 07:47:01,565 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-25 07:47:01,938 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-25 07:47:02,571 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-25 07:47:02,613 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-25 07:47:02,624 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-25 07:47:02,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-25 07:47:02,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-25 07:47:02,695 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-25 07:47:02,726 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-25 07:47:02,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2020-08-25 07:47:02,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-25 07:47:02,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-25 07:47:02,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-25 07:47:02,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-25 07:47:02,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-25 07:47:02,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-25 07:47:02,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-25 07:47:02,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-25 07:47:02,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-25 07:47:02,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-25 07:47:02,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-25 07:47:02,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-25 07:47:02,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Models.Roles.EditRoleModalViewModel
+WARN  2020-08-25 07:47:05,776 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-25 07:47:05,776 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-25 07:47:05,789 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {8ada0769-72eb-4b36-b311-03e6afaf56a9} may be persisted to storage in unencrypted form.
+WARN  2020-08-25 07:47:12,104 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:47:26,038 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:47:31,010 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:47:32,362 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:47:34,318 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:47:35,871 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:47:39,728 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:48:04,754 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:48:17,446 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:48:19,671 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:48:27,061 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2020-08-25 07:48:28,478 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2020-08-25 14:09:01,063 [25   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-25 14:09:01,066 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-25 14:09:01,066 [25   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-25 14:09:01,068 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-25 14:09:01,068 [25   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-25 14:09:01,068 [25   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-08-27 07:21:56,441 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-27 07:21:56,701 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-27 07:21:56,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.Web.Cms.Startup.PaymentWebCmsModule, Payment.Web.Cms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentWebCoreModule, Payment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentApplicationModule, Payment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.PaymentCoreModule, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Payment.EntityFrameworkCore.PaymentEntityFrameworkModule, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:56,730 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-27 07:21:56,813 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-27 07:21:56,813 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-27 07:21:56,813 [1    ] o.Configuration.LanguageManagementConfig - Converted Payment-vi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-27 07:21:56,813 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-27 07:21:57,157 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Payment.EntityFrameworkCore.PaymentDbContext, Payment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-27 07:21:57,715 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-27 07:21:57,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-27 07:21:57,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-27 07:21:57,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Payment-vi
+DEBUG 2020-08-27 07:21:57,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-27 07:21:57,840 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-27 07:21:57,877 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-27 07:21:57,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2020-08-27 07:21:57,925 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-27 07:21:57,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.CreateUserDto
+DEBUG 2020-08-27 07:21:57,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Users.Dto.UserDto
+DEBUG 2020-08-27 07:21:57,932 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.CreateTicketInput
+DEBUG 2020-08-27 07:21:57,932 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.ListItemTicketDto
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.TicketDto
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Ticket.Dto.UpdateTicketInput
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.CreateServerInput
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.ServerDto
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Server.Dto.UpdateServerInput
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Roles.Dto.PermissionDto
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.CreatePaymentGatewayInput
+DEBUG 2020-08-27 07:21:57,933 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.PaymentGatewayDto
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.PaymentGateway.Dto.UpdatePaymentGatewayInput
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.CreateGiftCodeInput
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.GiftCodeDto
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.GiftCode.Dto.UpdateGiftCodeInput
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.CreateGameInput
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.GameDto
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.ListItemFormAskDto
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Game.Dto.UpdateGameInput
+DEBUG 2020-08-27 07:21:57,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.CreateDenominationInput
+DEBUG 2020-08-27 07:21:57,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.DenominationDto
+DEBUG 2020-08-27 07:21:57,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Denomination.Dto.UpdateDenominationInput
+DEBUG 2020-08-27 07:21:57,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-27 07:21:57,935 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Payment.Web.Cms.Models.Roles.EditRoleModalViewModel
+WARN  2020-08-27 07:22:00,915 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2020-08-27 07:22:00,915 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+WARN  2020-08-27 07:22:00,927 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {16441366-6203-4531-81b2-b55639009a75} may be persisted to storage in unencrypted form.
+WARN  2020-08-27 07:22:13,115 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2020-08-27 17:42:07,913 [61   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-08-27 17:42:07,916 [61   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-27 17:42:07,916 [61   ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-27 17:42:07,918 [61   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-27 17:42:07,918 [61   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Payment.MultiTenancy.Tenant, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Payment.Authorization.Users.User, Payment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-27 17:42:07,918 [61   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
